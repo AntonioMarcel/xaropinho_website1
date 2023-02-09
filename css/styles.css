@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    color: #A7727D;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #A7727D;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #f9dfbd;
+
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/*mesmo que as 3 primeiras linhas:
+border: dotted #DFD3C3 6px;
+border-bottom: none; */
+
+hr {
+    border-style: dotted none none; /*top; right and left; bottom*/
+    border-color: #DFD3C3;
+    border-width: 10px;
+    width: 6%;
+}
+
+
+
+
+
+.top-container {
+    background-color: #85586F;
+    position: relative;
+    padding: 50px 0 50px 0; /*padding: 50px 0; top bottom; right left*/
+}
+
+.rat {
+    text-decoration: underline;
+}
+
+.top-rat {
+    position: absolute; /*gets pushed randomly because no position specified*/    
+    right: 300px;
+    top: 50px;
+
+}
+
+/*position absolute removes bottom RAT from the flow of the document letting the mountain image be centralized*/
+
+.bottom-rat {
+    position: absolute; /*gets pushed randomly because no position specified*/
+    left: 300px;
+    bottom: 300px;
+
+}
+
+.middle-container {
+    background-color: #D0B8A8;
+
+}
+
+.middle-container h2 {
+    color: #f9dfbd;
+    font-weight: bold;
+}
+.profile {
+    width: 25%;
+    margin: 0 auto 0 auto; /*margin auto also works*/
+    padding: 75px 0 75px 0;
+    line-height: 2;
+
+}
+
+.skills {
+    padding-top: 75px;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.angry_xarope {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+.p_angry {
+    clear: left;
+}
+*/
+.luigi_crying {
+    width: 35%;
+    float: right;
+    margin-left: 30px;
+}
+/* 
+.p_luigi {
+    clear: right;
+}
+*/
+.toad_football {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+/*
+.p_toad {
+    clear: left;
+}
+*/
+.zilu {
+    font-size: 10px;
+}
+
+.contact-me {
+    padding: 75px 0 75px 0;
+    width: 40%;
+    margin: 0 auto 0 auto;
+    line-height: 2;
+}
+.goodbye {
+    width: 40%;
+}
+
+.p_goodbye {
+    margin-bottom: 50px;
+
+}
+
+.btn {
+    background: #deac6a;
+    background-image: -webkit-linear-gradient(top, #deac6a, #f5b362);
+    background-image: -moz-linear-gradient(top, #deac6a, #f5b362);
+    background-image: -ms-linear-gradient(top, #deac6a, #f5b362);
+    background-image: -o-linear-gradient(top, #deac6a, #f5b362);
+    background-image: linear-gradient(to bottom, #deac6a, #f5b362);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #d9a25b;
+    background-image: -webkit-linear-gradient(top, #d9a25b, #ad7530);
+    background-image: -moz-linear-gradient(top, #d9a25b, #ad7530);
+    background-image: -ms-linear-gradient(top, #d9a25b, #ad7530);
+    background-image: -o-linear-gradient(top, #d9a25b, #ad7530);
+    background-image: linear-gradient(to bottom, #d9a25b, #ad7530);
+    text-decoration: none;
+  }
+    
+.bottom-container {
+    padding: 20px 0 20px 0;
+    line-height: 4;
+    background-color: #DFD3C3;
+    word-spacing: 50px;
+
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #978269;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+    color: #d6b894;
+}
+
+.p_copyright {
+    margin: 0;
+    color: #ffffff;
+    font-size: 0.75rem;
+    word-spacing: normal;
+
+
+}
